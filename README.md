@@ -6,7 +6,15 @@ Built in **Make.com** on free plans only, with **synthetic test data**, as a por
 
 ![Main scenario](screenshots/01-main-scenario.png)
 
+## Demo (4-minute walkthrough)
+
+https://github.com/user-attachments/assets/16f063c9-3c32-47b1-8633-afa165a9f6fd
+
 ---
+
+
+
+
 
 ## The problem
 
@@ -115,7 +123,7 @@ A selection. The full list is in the test log and project notes.
 | Slack | Free | 10 integrations, 90-day history |
 | Google Sheets, Gmail | Free | — |
 
-Approximate Make credits per lead: hot ≈9, warm ≈8, duplicate ≈4, invalid ≈3, each failed AI attempt ≈3. Daily summary ≈2 per day.
+Approximate Make credits per lead: hot ≈8-9, warm ≈8, duplicate ≈4, invalid ≈3, each failed AI attempt ≈3. Daily summary ≈2 per day.
 
 ## Known limitations
 
@@ -127,7 +135,7 @@ Approximate Make credits per lead: hot ≈9, warm ≈8, duplicate ≈4, invalid 
 - Lead Status is updated by hand, and the follow-up reminder depends on it.
 - The daily summary relies on the sheet recalculating (set to hourly).
 - Make's free plan allows 2 active scenarios, so the daily summary can't always be switched on alongside other work.
-- The AI doesn't always use the exact "20-minute discovery call" wording, and large budgets reach a score of 10 easily (see the test log).
+- The AI doesn’t always follow the reply-wording rules: it sometimes leaves out the “20-minute discovery call” wording or repeats a deadline the lead mentioned, and large budgets reach a score of 10 easily (see the test log). This is why replies are saved as Gmail drafts for a person to check, never sent automatically.
 
 ## Next steps
 
